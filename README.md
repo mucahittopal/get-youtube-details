@@ -1,6 +1,8 @@
 # get-youtube-details
 Get video details from a youtube url with php
 
+I think it is a very useful function, especially for those who want to get the video length.
+
 video details content example: 
 
 <pre>
@@ -109,8 +111,8 @@ video details content example:
 </pre>
 
 <strong>Using the function</strong>
-<pre>
+<pre><code>
   $url="https://www.youtube.com/watch?v=GwHLY-fI2q8";
   $data=getVideoDetails($url);
   print_r($data);
-</pre>
+</code></pre>
