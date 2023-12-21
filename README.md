@@ -1,5 +1,5 @@
 # get-youtube-details
-Get video details from a youtube url
+Get video details from a youtube url with php
 
 video details content example: 
 
@@ -109,9 +109,8 @@ video details content example:
 </pre>
 
 <strong>Using the function</strong>
-<code>
-  <?php
+<pre>
   $url="https://www.youtube.com/watch?v=GwHLY-fI2q8";
   $data=getVideoDetails($url);
   print_r($data);
-</code>
+</pre>
