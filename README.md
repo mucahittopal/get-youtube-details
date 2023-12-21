@@ -109,9 +109,9 @@ video details content example:
 </pre>
 
 <strong>Using the function</strong>
-<pre>
+<code>
   <?php
   $url="https://www.youtube.com/watch?v=GwHLY-fI2q8";
   $data=getVideoDetails($url);
   print_r($data);
-</pre>
+</code>
